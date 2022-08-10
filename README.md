@@ -1,30 +1,35 @@
-# Code-Refactor-Starter-Code--AR
-Module 1 Challenge
-# Code Refactor Starter Code
+# Module 2 Challenge
+# Advanced CSS Challenge: Professional Portfolio
 
-# User Story
+## User Story
+AS AN employer
+I WANT to view a potential employee's deployed portfolio of work samples
+SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
 
-* AS A marketing agency, I WANT a codebase that follows accessibility standards. SO THAT our own site is optimized for search engines
+
+**Note:** 
+
 
 ## Acceptance Criteria
+GIVEN I need to sample a potential employee's previous work
+WHEN I load their portfolio
+📝 
+THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+📝 
+WHEN I click one of the links in the navigation
+THEN the UI scrolls to the corresponding section
+📝 
+WHEN I click on the link to the section about their work
+THEN the UI scrolls to a section with titled images of the developer's applications
+📝 
+WHEN I am presented with the developer's first application
+THEN that application's image should be larger in size than the others
+📝 
+WHEN I click on the images of the applications
+THEN I am taken to that deployed application
+📝 
+WHEN I resize the page or view the site on various screens and devices
+THEN I am presented with a responsive layout that adapts to my viewport
+📝 
 
-GIVEN a webpage meets accessibility standards
-* WHEN I view the source code
-* THEN I find semantic HTML elements
-I input changed the hero div to section <section class="hero"></section>
 
-* WHEN I view the structure of the HTML elements
-* THEN I find that the elements follow a logical structure independent of styling and positioning
-I conslidated css repetitive styles and renamed them as new classes in html 
-
-* WHEN I view the image elements
-* THEN I find accessible alt attributes 
-I added alt to all image search such as <img src="./assets/images/search-engine-optimization.jpg" alt class="float-left" />
-
-* WHEN I view the heading attributes
-* THEN they fall in sequential order 
-I added id= to the following <div id="search-engine-optimization" class="category"> so the navigation link to respondence scetion 
-
-* WHEN I view the title element
-* THEN I find a concise, descriptive title - right nect to the title
-I input descriptive title 'marketing agency for your brands' in the <title>Horiseon</title> 
